@@ -1,4 +1,4 @@
-package com.jojodu.book.springboot;
+package com.jojodu.book.springboot.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
