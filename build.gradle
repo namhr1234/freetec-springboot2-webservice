@@ -32,7 +32,8 @@ sourceCompatibility = 1.8
 // tag::dependencies[]
 dependencies {
     implementation ('org.springframework.boot:spring-boot-starter-web')
-    implementation ('org.projectlombok:lombok') //2022.06.15 lombok
+    implementation ('org.projectlombok:lombok')
+    implementation 'junit:junit:4.13.1'//2022.06.15 lombok
     testImplementation ('org.springframework.boot:spring-boot-starter-test')
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
